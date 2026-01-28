@@ -1,0 +1,48 @@
+# Compiled files
+*.o
+app
+
+# IDE
+.vscode/
+.idea/
+# Build directories
+/build/
+/bin/
+/out/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake-build-*/
+
+# Compiled object files
+*.o
+*.obj
+*.so
+*.a
+*.dylib
+*.dll
+*.exe
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# MacOS system files
+.DS_Store
+
+# Linux system files
+*~
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.swp
+
+.cache/*

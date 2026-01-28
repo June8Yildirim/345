@@ -1,0 +1,12 @@
+[
+  {
+    "directory": "/Users/cuneytyildirim/Documents/comp345/A1/Assignment1",
+    "command": "clang++ -std=c++17 -Iinclude -c src/main.cpp",
+    "file": "src/main.cpp"
+  },
+  {
+    "directory": "/Users/cuneytyildirim/Documents/comp345/A1/Assignment1",
+    "command": "clang++ -std=c++17 -Iinclude -c src/project.cpp",
+    "file": "src/project.cpp"
+  }
+]
