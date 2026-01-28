@@ -1,0 +1,33 @@
+This folder contains:
+
+A.h
+A.cpp
+B.h
+B.cpp
+C.h
+C.cpp
+
+If you compile all of them:
+
+g++ *.cpp
+
+then you have redefined symbols, as both A.cpp and B.cpp contain a main() function, which creates a linker error. 
+
+If you compile A.cpp and C.cpp:
+
+g++ A.cpp C.cpp
+
+upon exection you get:
+
+Executing A.cpp's main function
+Executing cff()
+Executing C::C(2)
+Executing C::cmf(1)
+
+If you compile B.cpp and C.cpp:
+
+g++ B.cpp C.cpp
+
+upon execution you get:
+
+Executing B.cpp's main function

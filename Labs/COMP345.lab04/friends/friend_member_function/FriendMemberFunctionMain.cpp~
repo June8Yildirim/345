@@ -1,0 +1,9 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+	A a;
+	B b;
+	a.show(a, b);
+	return 0;
+}

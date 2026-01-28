@@ -1,0 +1,12 @@
+[
+  {
+    "directory": "/Users/cuneytyildirim/Documents/comp345/Labs/COMP345.lab01/compilation_units/comp_units",
+    "command": "clang++ -std=c++17 -Wall -Wextra -Iinclude -c src/main.cpp -o build/main.o",
+    "file": "src/main.cpp"
+  },
+  {
+    "directory": "/Users/cuneytyildirim/Documents/comp345/Labs/COMP345.lab01/compilation_units/comp_units",
+    "command": "clang++ -std=c++17 -Wall -Wextra -Iinclude -c src/project.cpp -o build/project.o",
+    "file": "src/project.cpp"
+  }
+]

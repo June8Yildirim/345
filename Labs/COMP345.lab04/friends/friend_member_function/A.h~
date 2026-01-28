@@ -1,0 +1,15 @@
+/*#pragma once
+
+class B; 
+
+class A
+{
+public:
+	A() { _a = 10; }
+	void show(A& a, B& b);
+
+private:
+	int _a;
+	int Func2(B& b);
+};
+*/

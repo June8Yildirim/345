@@ -1,0 +1,7 @@
+# Compiled files
+*.o
+app
+
+# IDE
+.vscode/
+.idea/
